@@ -1,3 +1,21 @@
 module.exports = [
-    
+    'camelCase',
+    'capitalize',
+    'deburr',
+    'escape',
+    'escapeRegExp',
+    'kebabCase',
+    'lowerCase',
+    'lowerFirst',
+    'pad',
+    'snakeCase',
+    'startCase',
+    'template',
+    'toLower',
+    'toUpper',
+    'truncate',
+    'unescape',
+    'upperCase',
+    'upperFirst',
+    'words',
 ];
