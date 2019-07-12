@@ -1,4 +1,4 @@
-# Lodash Porototypes
+# Lodash Prototypes
 
 Add your favorite Lodash methods for Arrays & Strings
 Because JavaScript should have them by default.
