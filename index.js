@@ -5,7 +5,7 @@ const arrays = require('./utils/arrays');
 
 strings.forEach(name => { 
     String.prototype[name] = function() {
-        const args = arguments;
+        const args = Array.from(arguments);
         args.unshift(this);
         return _[name].call(this, args);
     }
@@ -13,7 +13,7 @@ strings.forEach(name => {
 
 arrays.forEach(name => { 
     Array.prototype[name] = function() {
-        const args = arguments;
+        const args = Array.from(arguments);
         args.unshift(this);
         return _[name].call(this, args);
     }
