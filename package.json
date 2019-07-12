@@ -1,6 +1,6 @@
 {
-  "name": "LodashPrototypes",
-  "version": "1.0.0",
+  "name": "lodash-prototypes",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
